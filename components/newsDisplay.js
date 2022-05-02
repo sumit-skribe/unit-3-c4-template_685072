@@ -27,13 +27,13 @@ const newsDisplay = async ( url ) =>
         newsDiv.addEventListener('click', function ()
         {
             
-            let article = 
+            let news = 
             {
                 urlToImage: urlToImage,
                 title : title,
                 description: description
             };
-            localStorage.setItem('article', JSON.stringify(article));
+            localStorage.setItem('news', JSON.stringify(news));
             window.location.href = 'news.html';
 
         });

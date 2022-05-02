@@ -1,6 +1,6 @@
 function detailedNews()
 {
-    let article = JSON.parse(localStorage.getItem('article'));
+    let article = JSON.parse(localStorage.getItem('news'));
     const urlToImage = article.urlToImage;
     const title = article.title;
     const description = article.description;
